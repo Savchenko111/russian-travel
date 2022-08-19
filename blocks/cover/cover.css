@@ -28,6 +28,7 @@
     transition: opacity 0.3s;
 }
 
+/*Для экранов с разрешением 1024 пикселя*/
 @media screen and (max-width: 1024px) {
     .cover {
         min-height: 640px;

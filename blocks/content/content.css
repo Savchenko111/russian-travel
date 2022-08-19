@@ -4,6 +4,7 @@
     padding: 28px 0 0 0;
 }
 
+/*Для экрана с разрешением 320 пикселей*/
 @media screen and (max-width: 320px) {
     .content {
         padding: 16px 0 0 0;
