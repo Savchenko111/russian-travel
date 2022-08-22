@@ -11,10 +11,10 @@
   <div class="content">
     <header class="header">
       <div class="header__logo"></div>
-      <div class="header__lang-links">
-        <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
-        <a href="#" class="header__lang-link">En</a>
-      </div>
+      <ul class="header__lang-links">
+        <li><a href="#" class="header__lang-link header__lang-link_active">Ru</a></li>
+        <li><a href="#" class="header__lang-link">En</a></li>
+      </ul>
     </header>
     <main class="main">
       <section class="lead">
@@ -23,57 +23,57 @@
         <img class="lead__image" src="./images/lead-polka.jpg" alt="Картинка со спящей в купе поезда 
           пассажиркой, а над ней маршрут ее путешествия"> 
         <p class="lead__caption">ваша полка — верхняя</p>
-        <div class="intro">
-          <h2 class="intro__title">Чего мы там не видели?</h2>
-          <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, 
-            но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, 
-            не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми 
-            лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно 
-            без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера 
-            Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в 
-            свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали 
-            некоторые интересные места, достойные вашего отпуска.
-          </p>
-          <ul class="intro__list">
-           <li>Часовых поясов 11</li>
-           <li>Объектов природного наследия ЮНЕСКО 12</li>
-           <li>Объектов культурного наследия ЮНЕСКО 16</li>
-           <li>Природных заповедников 105</li>
-           <li>Аэропортов 241</li>
-          </ul>
-        </div> 
       </section>
-      <section class="photo-grid">
-        <img class="photo-grid__item" src="./images/photo-grid-train.jpg" 
-          alt="Вид из окна поезда">
-        <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" 
-          alt="Заснеженные горные вершины с высоты птичьего полета">
-        <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" 
-          alt="Поле со стогами сена в утреннем тумане">
-        <img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" 
-          alt="Лес в тумане с высоты птичьего полета">
-        <img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" 
-          alt="Крупным планом колесо автомобиля, едущего по прозрачному льду озера">
-        <img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" 
-          alt="Берег озера Байкал и горы вдалеке">
-        <img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" 
-          alt="Заснеженные горные вершины. Эльбрус">
-        <img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg" 
-          alt="Знак &quot;Пешеходный переход&quot;">
-        <img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" 
-          alt="Камчатка. Сопки в тумане с высоты птичьего полета">
-        <img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" 
-          alt="Камчатка. Равнина и вдалеке гора">
-        <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" 
-          alt="Байкал. Скалы у берега">
-        <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" 
-          alt="Горный ландшафт, почти скрытый густым туманом">
-      </section>
+      <section class="intro">
+        <h2 class="intro__title">Чего мы там не видели?</h2>
+        <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, 
+          но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, 
+          не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми 
+          лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно 
+          без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера 
+          Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в 
+          свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали 
+          некоторые интересные места, достойные вашего отпуска.
+        </p>
+        <ul class="intro__list">
+         <li>Часовых поясов <span class="intro__list-quantity">11</span></li>
+         <li>Объектов природного наследия ЮНЕСКО <span class="intro__list-quantity">12</span></li>
+         <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list-quantity">16</span></li>
+         <li>Природных заповедников <span class="intro__list-quantity">105</span></li>
+         <li>Аэропортов <span class="intro__list-quantity">241</span></li>
+        </ul>
+      </section> 
+      <ul class="photo-grid">
+        <li><img class="photo-grid__item" src="./images/photo-grid-train.jpg" 
+          alt="Вид из окна поезда"></li>
+        <li><img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" 
+          alt="Заснеженные горные вершины с высоты птичьего полета"></li>
+        <li><img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" 
+          alt="Поле со стогами сена в утреннем тумане"></li>
+        <li><img class="photo-grid__item" src="./images/photo-grid-sochi.jpg" 
+          alt="Лес в тумане с высоты птичьего полета"></li>
+        <li><img class="photo-grid__item" src="./images/photo-grid-arisa.jpg" 
+          alt="Крупным планом колесо автомобиля, едущего по прозрачному льду озера"></li>
+        <li><img class="photo-grid__item" src="./images/photo-grid-baikal.jpg" 
+          alt="Берег озера Байкал и горы вдалеке"></li>
+        <li><img class="photo-grid__item" src="./images/photo-grid-elbrus.jpg" 
+          alt="Заснеженные горные вершины. Эльбрус"></li>
+        <li><img class="photo-grid__item" src="./images/photo-grid-kondratiev.jpg" 
+          alt="Знак &quot;Пешеходный переход&quot;"></li>
+        <li><img class="photo-grid__item" src="./images/photo-grid-kamchatka-1.jpg" 
+          alt="Камчатка. Сопки в тумане с высоты птичьего полета"></li>
+        <li><img class="photo-grid__item" src="./images/photo-grid-kamchatka-2.jpg" 
+          alt="Камчатка. Равнина и вдалеке гора"></li>
+        <li><img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" 
+          alt="Байкал. Скалы у берега"></li>
+        <li><img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" 
+          alt="Горный ландшафт, почти скрытый густым туманом"></li>
+      </ul>
       <section class="places">
         <div class="place">
-          <h3 class="place__title">Куршская коса</h3>
+          <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
-            <p class="place__url-heading">url</p>
+            <h3 class="place__url-heading">url</h3>
             <a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a>
           </div>
           <img class="place__image" src="./images/place-kosa.jpg" alt="Куршская коса. Каменистый берег">
@@ -91,9 +91,9 @@
           </div>
         </div>
         <div class="place">
-          <h3 class="place__title">Кольский</h3>
+          <h2 class="place__title">Кольский</h2>
           <div class="place__website">
-            <p class="place__url-heading">url</p>
+            <h3 class="place__url-heading">url</h3>
             <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">
               National Geographic</a>
           </div>
@@ -114,9 +114,9 @@
           </div>
         </div>
         <div class="place">
-          <h3 class="place__title">Алтай</h3>
+          <h2 class="place__title">Алтай</h2>
           <div class="place__website">
-            <p class="place__url-heading">url</p>
+            <h3 class="place__url-heading">url</h3>
             <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">
               Facebook</a>
           </div>
@@ -135,9 +135,9 @@
           </div>
         </div>
         <div class="place">
-          <h3 class="place__title">Зимний Байкал</h3>
+          <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
-            <p class="place__url-heading">url</p>
+            <h3 class="place__url-heading">url</h3>
             <a class="place__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
           </div>
           <img class="place__image" src="./images/place-winter-baikal.jpg" alt="Прозрачный лед Байкала">
@@ -154,9 +154,9 @@
           </div>
         </div>
         <div class="place">
-          <h3 class="place__title">Карелия</h3>
+          <h2 class="place__title">Карелия</h2>
           <div class="place__website">
-            <p class="place__url-heading">url</p>
+            <h3 class="place__url-heading">url</h3>
             <a class="place__link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
           </div>
           <img class="place__image" src="./images/place-karelia.jpg" 
@@ -176,7 +176,7 @@
       </section>
       <section class="cover">
         <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link" target="_blank">
-            <h4 class="cover__title"><span class="cover__name">До Байкала</span>"на собаках"</h4>
+            <h2 class="cover__title">До Байкала &laquo;на&nbspсобаках&raquo;</h2>
             <p class="cover__subtitle">По мотивам учебной темы о Транссибе — 
              путешествие от столицы до Байкала на электричках.
             </p>

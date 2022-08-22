@@ -5,30 +5,12 @@
     font-family: 'Inter';
     font-weight: 400;
   }
-
-  @font-face {
-    src: url(./fonts/Inter-Italic.woff2) format('woff2'),
-         url(./fonts/Inter-Italic.woff) format('woff'),
-         url(./fonts/Inter-Italic.otf) format('otf');
-    font-family: 'Inter';
-    font-style: italic;
-    font-weight: 400;
-  }
   
   @font-face {
     src: url(./fonts/Inter-Bold.woff2) format('woff2'),
          url(./fonts/Inter-Bold.woff) format('woff'),
          url(./fonts/Inter-Bold.otf) format('otf');
     font-family:'Inter';
-    font-weight: 700;
-  }
-
-  @font-face {
-    src: url(./fonts/Inter-BoldItalic.woff2) format('woff2'),
-         url(./fonts/Inter-BoldItalic.woff) format('woff'),
-         url(./fonts/Inter-BoldItalic.otf) format('otf');
-    font-family: 'Inter';
-    font-style: italic;
     font-weight: 700;
   }
   
@@ -38,14 +20,4 @@
          url(./fonts/Inter-Black.otf) format('otf');
     font-family: 'Inter';
     font-weight: 900;
-  }
-
-  @font-face {
-    src: url(./fonts/Inter-BlackItalic.woff2) format('woff2'),
-         url(./fonts/Inter-BlackItalic.woff) format('woff'),
-         url(./fonts/Inter-BlackItalic.otf) format('otf');
-    font-family: 'Inter';
-    font-style:  italic;
-    font-weight: 900;
-         
   }

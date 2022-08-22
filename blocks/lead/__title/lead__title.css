@@ -3,7 +3,6 @@
     line-height: 1.04;
     font-weight: 900;
     max-width: 720px;
-    min-height: 200px;
     margin: 0 auto;
     text-align: center;
     padding: 0 15px;
@@ -14,16 +13,12 @@
         font-size: 75px;
         line-height: 1.06;
         max-width: fit-content;
-        min-height: fit-content;
     }
 }
 
 @media screen and (max-width: 600px) {
     .lead__title {
         font-size: 60px;
-        line-height: 1.06;
-        max-width: fit-content;
-        min-height: fit-content;
     }
     
 }
@@ -32,8 +27,6 @@
     .lead__title {
         font-size: 45px;
         line-height: 1.07;
-        max-width: fit-content;
-        min-height: fit-content;
     } 
 }
 
@@ -43,6 +36,5 @@
         font-size: 40px;
         line-height: 1.1;
         max-width: 288px;
-        min-height: 88px;
     }
 }
